@@ -41,7 +41,7 @@ def generate_simulations(
     elif asset == "ETH":
         sigma *= 1.25
     elif asset == "CSPX":
-        sigma *= 0.5
+        sigma *= 1
 
     simulations = simulate_crypto_price_paths(
         current_price=current_price,
