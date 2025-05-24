@@ -37,7 +37,7 @@ def generate_simulations(
         raise ValueError(f"Failed to fetch current price for asset: {asset}")
 
     if asset == "BTC":
-        sigma *= 3
+        sigma *= 10
     elif asset == "ETH":
         sigma *= 1.25
     elif asset == "CSPX":
